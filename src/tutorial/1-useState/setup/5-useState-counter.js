@@ -15,7 +15,7 @@ const UseStateCounter = () => {
     setTimeout(() => {
       // setValue(value + 1);
       setValue((prevState) => {
-        // return prevState + 1;
+        return prevState + 1;
       });
     }, 2000);
   };
